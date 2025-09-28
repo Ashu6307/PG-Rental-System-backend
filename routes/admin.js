@@ -10,7 +10,7 @@ import { authenticateJWT } from '../middleware/auth.js';
 import EmailManager from '../modules/email/EmailManager.js';
 import { sendNotification } from '../utils/notificationService.js';
 import { logAction } from '../utils/auditLogService.js';
-import { Parser } from 'json2csv';
+import { Parser } from '@json2csv/plainjs';
 
 const router = express.Router();
 
