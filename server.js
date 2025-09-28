@@ -61,7 +61,7 @@ app.set('trust proxy', 1); // Fixes rate-limit X-Forwarded-For warning
 
 // Configure CORS properly for credentials
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3500', 'http://localhost:5173'],
+  origin: ['http://localhost:3000', 'http://localhost:3500', 'http://localhost:5173', 'https://pg-rental-system.netlify.app'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
