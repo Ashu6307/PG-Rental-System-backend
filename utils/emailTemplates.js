@@ -154,7 +154,7 @@ const emailTemplates = {
         }
     </div>
     
-    <a href="http://localhost:3000/${role}/login" class="button">
+    <a href="https://pg-rental-system.netlify.app/${role}/login" class="button">
         🔗 Access Your Dashboard
     </a>
     
@@ -188,7 +188,7 @@ const emailTemplates = {
         • Check your dashboard for updates
     </div>
     
-    <a href="http://localhost:3000/user/my-bookings" class="button">
+    <a href="https://pg-rental-system.netlify.app/user/my-bookings" class="button">
         📊 View Booking Details
     </a>
     
@@ -219,7 +219,7 @@ const emailTemplates = {
         Don't worry! There are many other PG options available on our platform.
     </div>
     
-    <a href="http://localhost:3000/pg" class="button">
+    <a href="https://pg-rental-system.netlify.app/pg" class="button">
         🔍 Browse Other PGs
     </a>
   `, '#dc2626'),
@@ -248,10 +248,10 @@ const emailTemplates = {
     </div>
     
     <div style="display: flex; gap: 10px; margin: 20px 0;">
-        <a href="http://localhost:3000/user/my-bookings" class="button" style="flex: 1; text-align: center;">
+    <a href="https://pg-rental-system.netlify.app/user/my-bookings" class="button" style="flex: 1; text-align: center;">
             📊 View Booking
         </a>
-        <a href="http://localhost:3000/user/write-review?booking=${bookingId}" class="button" style="flex: 1; text-align: center; background: #059669;">
+    <a href="https://pg-rental-system.netlify.app/user/write-review?booking=${bookingId}" class="button" style="flex: 1; text-align: center; background: #059669;">
             ⭐ Write Review
         </a>
     </div>
@@ -286,7 +286,7 @@ const emailTemplates = {
         • Check your dashboard for real-time updates
     </div>
     
-    <a href="http://localhost:3000/user/my-bookings" class="button">
+    <a href="https://pg-rental-system.netlify.app/user/my-bookings" class="button">
         📊 Track Your Booking
     </a>
     
@@ -337,10 +337,10 @@ const emailTemplates = {
     </div>
     
     <div style="display: flex; gap: 10px; margin: 20px 0;">
-        <a href="http://localhost:3000/user/my-bookings" class="button" style="flex: 1; text-align: center;">
+    <a href="https://pg-rental-system.netlify.app/user/my-bookings" class="button" style="flex: 1; text-align: center;">
             📊 View Booking
         </a>
-        <a href="http://localhost:3000/user/payments" class="button" style="flex: 1; text-align: center; background: #059669;">
+    <a href="https://pg-rental-system.netlify.app/user/payments" class="button" style="flex: 1; text-align: center; background: #059669;">
             💳 Payment History
         </a>
     </div>
@@ -378,10 +378,10 @@ const emailTemplates = {
     </div>
     
     <div style="display: flex; gap: 10px; margin: 20px 0;">
-        <a href="${retryUrl || 'http://localhost:3000/user/my-bookings'}" class="button" style="flex: 1; text-align: center;">
+    <a href="${retryUrl || 'https://pg-rental-system.netlify.app/user/my-bookings'}" class="button" style="flex: 1; text-align: center;">
             🔄 Retry Payment
         </a>
-        <a href="http://localhost:3000/contact" class="button" style="flex: 1; text-align: center; background: #dc2626;">
+    <a href="https://pg-rental-system.netlify.app/contact" class="button" style="flex: 1; text-align: center; background: #dc2626;">
             🆘 Get Help
         </a>
     </div>
@@ -425,10 +425,10 @@ const emailTemplates = {
     </div>
     
     <div style="display: flex; gap: 10px; margin: 20px 0;">
-        <a href="http://localhost:3000/user/payments" class="button" style="flex: 1; text-align: center;">
+    <a href="https://pg-rental-system.netlify.app/user/payments" class="button" style="flex: 1; text-align: center;">
             💳 Track Refund
         </a>
-        <a href="http://localhost:3000/contact" class="button" style="flex: 1; text-align: center; background: #059669;">
+    <a href="https://pg-rental-system.netlify.app/contact" class="button" style="flex: 1; text-align: center; background: #059669;">
             📞 Contact Support
         </a>
     </div>
@@ -479,17 +479,17 @@ const emailTemplates = {
     ` : ''}
     
     <div style="display: flex; gap: 10px; margin: 20px 0;">
-        <a href="http://localhost:3000/pg-listings" class="button" style="flex: 1; text-align: center;">
+    <a href="https://pg-rental-system.netlify.app/pg-listings" class="button" style="flex: 1; text-align: center;">
             🏠 Browse PGs
         </a>
-        <a href="http://localhost:3000/rooms" class="button" style="flex: 1; text-align: center; background: #059669;">
+    <a href="https://pg-rental-system.netlify.app/rooms" class="button" style="flex: 1; text-align: center; background: #059669;">
             � Rent Rooms
         </a>
     </div>
     
     <div class="divider"></div>
     <div class="text" style="font-size: 14px; color: #6b7280;">
-        Don't want to receive newsletters? <a href="http://localhost:3000/unsubscribe?type=newsletter&email=${name}" style="color: #3b82f6;">Unsubscribe here</a>
+    Don't want to receive newsletters? <a href="https://pg-rental-system.netlify.app/unsubscribe?type=newsletter&email=${name}" style="color: #3b82f6;">Unsubscribe here</a>
     </div>
   `, '#3b82f6'),
 
@@ -538,17 +538,17 @@ const emailTemplates = {
     ` : ''}
     
     <div style="display: flex; gap: 10px; margin: 20px 0;">
-        <a href="http://localhost:3000/offers" class="button" style="flex: 1; text-align: center;">
+    <a href="https://pg-rental-system.netlify.app/offers" class="button" style="flex: 1; text-align: center;">
             🎉 Claim Offer
         </a>
-        <a href="http://localhost:3000/pg-listings" class="button" style="flex: 1; text-align: center; background: #059669;">
+    <a href="https://pg-rental-system.netlify.app/pg-listings" class="button" style="flex: 1; text-align: center; background: #059669;">
             🏠 Book Now
         </a>
     </div>
     
     <div class="divider"></div>
     <div class="text" style="font-size: 14px; color: #6b7280;">
-        Hurry! This offer expires on ${validTill}. <a href="http://localhost:3000/unsubscribe?type=promotional&email=${name}" style="color: #3b82f6;">Unsubscribe from promotional emails</a>
+    Hurry! This offer expires on ${validTill}. <a href="https://pg-rental-system.netlify.app/unsubscribe?type=promotional&email=${name}" style="color: #3b82f6;">Unsubscribe from promotional emails</a>
     </div>
   `, '#059669'),
 
@@ -596,10 +596,10 @@ const emailTemplates = {
     </div>
     
     <div style="display: flex; gap: 10px; margin: 20px 0;">
-        <a href="http://localhost:3000/seasonal-offers" class="button" style="flex: 1; text-align: center;">
+    <a href="https://pg-rental-system.netlify.app/seasonal-offers" class="button" style="flex: 1; text-align: center;">
             ${seasonIcon} Explore Offers
         </a>
-        <a href="http://localhost:3000/book-now" class="button" style="flex: 1; text-align: center; background: #dc2626;">
+    <a href="https://pg-rental-system.netlify.app/book-now" class="button" style="flex: 1; text-align: center; background: #dc2626;">
             🚀 Book Now
         </a>
     </div>
@@ -659,17 +659,17 @@ const emailTemplates = {
     </div>
     
     <div style="display: flex; gap: 10px; margin: 20px 0;">
-        <a href="http://localhost:3000/welcome-back" class="button" style="flex: 1; text-align: center;">
+    <a href="https://pg-rental-system.netlify.app/welcome-back" class="button" style="flex: 1; text-align: center;">
             🎁 Claim Offer
         </a>
-        <a href="http://localhost:3000/whats-new" class="button" style="flex: 1; text-align: center; background: #059669;">
+    <a href="https://pg-rental-system.netlify.app/whats-new" class="button" style="flex: 1; text-align: center; background: #059669;">
             ✨ See What's New
         </a>
     </div>
     
     <div class="divider"></div>
     <div class="text" style="font-size: 14px; color: #6b7280;">
-        We value your relationship with us. If you prefer not to receive these emails, <a href="http://localhost:3000/unsubscribe?type=retention&email=${name}" style="color: #3b82f6;">click here</a>.
+    We value your relationship with us. If you prefer not to receive these emails, <a href="https://pg-rental-system.netlify.app/unsubscribe?type=retention&email=${name}" style="color: #3b82f6;">click here</a>.
     </div>
   `, '#dc2626'),
 
@@ -695,7 +695,7 @@ const emailTemplates = {
         • Manage bookings & payments
     </div>
     
-    <a href="http://localhost:3000/owner/dashboard" class="button">
+    <a href="https://pg-rental-system.netlify.app/owner/dashboard" class="button">
         🏢 Access Owner Dashboard
     </a>
   `, '#059669'),
@@ -720,7 +720,7 @@ const emailTemplates = {
         <strong>⚠️ Security Alert:</strong> If you didn't make this change, please contact support immediately.
     </div>
     
-    <a href="http://localhost:3000/contact" class="button">
+    <a href="https://pg-rental-system.netlify.app/contact" class="button">
         🆘 Contact Support
     </a>
   `, '#dc2626'),
@@ -758,10 +758,10 @@ const emailTemplates = {
     </div>
     
     <div style="display: flex; gap: 10px; margin: 20px 0;">
-        <a href="${role === 'admin' ? 'http://localhost:3000/admin/login' : role === 'owner' ? 'http://localhost:3000/owner/login' : 'http://localhost:3000/user/login'}" class="button" style="flex: 1; text-align: center;">
+    <a href="${role === 'admin' ? 'https://pg-rental-system.netlify.app/admin/login' : role === 'owner' ? 'https://pg-rental-system.netlify.app/owner/login' : 'https://pg-rental-system.netlify.app/user/login'}" class="button" style="flex: 1; text-align: center;">
             🔑 Login Now
         </a>
-        <a href="http://localhost:3000/contact" class="button" style="flex: 1; text-align: center; background: #dc2626;">
+    <a href="https://pg-rental-system.netlify.app/contact" class="button" style="flex: 1; text-align: center; background: #dc2626;">
             🆘 Report Issue
         </a>
     </div>
@@ -829,10 +829,10 @@ const emailTemplates = {
     </div>
     
     <div style="display: flex; gap: 10px; margin: 20px 0;">
-        <a href="${role === 'admin' ? 'http://localhost:3000/admin/profile' : role === 'owner' ? 'http://localhost:3000/owner/profile' : 'http://localhost:3000/user/profile'}" class="button" style="flex: 1; text-align: center;">
+    <a href="${role === 'admin' ? 'https://pg-rental-system.netlify.app/admin/profile' : role === 'owner' ? 'https://pg-rental-system.netlify.app/owner/profile' : 'https://pg-rental-system.netlify.app/user/profile'}" class="button" style="flex: 1; text-align: center;">
             👤 View Profile
         </a>
-        <a href="http://localhost:3000/contact" class="button" style="flex: 1; text-align: center; background: #dc2626;">
+    <a href="https://pg-rental-system.netlify.app/contact" class="button" style="flex: 1; text-align: center; background: #dc2626;">
             🆘 Report Issue
         </a>
     </div>
